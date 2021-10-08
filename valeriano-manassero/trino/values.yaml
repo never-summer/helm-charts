@@ -119,7 +119,16 @@ accessControl: {}
 # If you want to provide your own secrets resource, you can use this field:
 # connectorsSecret:
 
-connectors: {}
+connectors:
+  tpcds.properties: |-
+   connector.name=tpcds
+  blackhole.properties: |-
+   connector.name=blackhole
+  mysql.properties: |-
+     connector.name=mysql
+     connection-url=jdbc:mysql://mysqlserver:3306
+     connection-user=mysqluser
+     connection-password=mysqlpassword
   # Connectors configuration usually contains sensitive data (like passwords, usernames, ...)
   # so data is stored in a secret
   # mysql.properties: |-
