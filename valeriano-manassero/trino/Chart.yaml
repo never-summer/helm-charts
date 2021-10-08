@@ -6,7 +6,7 @@ version: 1.4.0
 home: https://trino.io
 icon: https://trino.io/assets/images/trino-logo/trino-ko_tiny-alt.svg
 sources:
-  - https://github.com/valeriano-manassero/helm-charts
+  - https://github.com/never-summer/helm-charts
   - https://github.com/trinodb/trino
 maintainers:
   - name: valeriano-manassero
